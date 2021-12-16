@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h> 
+
+typedef struct item
+	int itemNumber;
+	char itemName[30];
+	char type[100];
+}
+item;
+
+void load_menu(void); 
+void additem (void);
+void removeitem (void);
+int main(void) 
+  
+{
+    int amount = 0;
+    char nombre;
+ 
+    load_menu();
+    return 0;
+}
+ 
+void load_menu(void)
+{
+    int choice;
+
+    do
+{
+ printf("============================================================\n");
+ printf("-                    W E L C O M E                         -\n");
+ printf("-                    T O     T H E                         -\n");
+ printf("-                  M A R V E L O U S                       -\n");
+ printf("-               CS102  INVENTORY  SYSTEM                   -\n");
+ printf("============================================================\n");
+ printf("1. ADD AN ITEM\n");
+ printf("2. SUBTRACT AN ITEM\n");
+ printf("3. Exit\n");
+ scanf("%d",&choice);
+
+system("clear");
+switch(choice) 
+{
+        case 1: additem();
+                break;
+        case 2: removeitem();
+                break;
+        case 3: printf("EXITING PROGRAM\n");
+                exit(0);
+                break;
+            default: printf(" T R Y  A G A I N \n");
+                break;
+        }
+}
+ while (choice != 3);
+}
+void additem(void)
+  {
+                printf("ENTER NAME OF ITEM\n"); 
+                scanf("%s" &name); /*DEFINE A VAR FOR THIS*/
+
+                printf("ENTER AMOUNT OF ITEM\n");
+                scanf("%s" &amount); /*VAR*/
+  
+               /* printf("ENTER ITEM TYPE\n" TO BE ADDED LATER*/ 
+  }
+void removeitem(void)
+  {
+    /*stuff*/
+    /*file opening stuff specifically*/
+        printf("WHAT WOULD YOU LIKE TO DELETE\n");
+        printf("     PLEASE PUT IN THE       \n");
+        printf("     I T E M  N A M E        \n");
+        scanfI("%s" &) 
+  }
