@@ -1,4 +1,4 @@
-#
+# This was made by Daniil Teteryatnik based on Prof Marano's template
 # Makefile for Project XYZ
 # RENAME XYZ for your project
 #
