@@ -1,22 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h> 
-
-typedef struct item{
-	int productNumber;
-	char productName[30];
-	int quantity;
-}
-item;
-void clrscr();
-void load_menu(void); 
-void additem (void);
-void removeitem(void);
-void viewproduct(void);
+#include "project.h" 
 
 int main(void) 
-{
-
- 
+{ 
     load_menu();
     return 0;
 }
@@ -77,4 +62,9 @@ printf("         ▀▀▀▀▀▀▀▀▀▀▀▀       \n");
         }
 }
  while (choice != 4);
+}
+
+void clrscr()
+{
+    system("@cls||clear");
 }
