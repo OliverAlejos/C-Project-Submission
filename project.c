@@ -2,7 +2,7 @@
 
 int main(void) 
 { 
-    load_menu();
+    load_menu(); /* load_menu function by O.A.*/
     return 0;
 }
  
