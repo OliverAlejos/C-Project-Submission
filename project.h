@@ -1,7 +1,7 @@
 /*
  * project.h
  */
-#ifndef PROJECT_H 
+#ifndef PROJECT_H
 #define PROJECT_H
 
 #include <stdio.h>
@@ -11,8 +11,8 @@
 /*
  * Global Variable declarations, if needed.
  */
-   int amount = 0;
-    char name;
+
+    char name; 
 /*
  * Data Structure declarations, if needed.
  */
