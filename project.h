@@ -1,7 +1,7 @@
 /*
  * project.h
  */
-#ifndef PROJECT_H /*what are we gonan name this lol*/
+#ifndef PROJECT_H 
 #define PROJECT_H
 
 #include <stdio.h>
